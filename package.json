@@ -1,5 +1,5 @@
 {
-  "name": "hyperapp-styled-components",
+  "name": "hyper-styled-components",
   "version": "0.1.2",
   "description": "A styled-components implementation for hyperapp (<3kb in size)",
   "main": "./src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SilentCicero/hyperapp-styled-components.git"
+    "url": "git+https://github.com/ruslankonev/hyper-styled-components.git"
   },
   "keywords": [
     "styled",
@@ -18,13 +18,13 @@
     "frontend",
     "framework"
   ],
-  "author": "Nick Dodson <thenickdodson@gmail.com>",
+  "author": "Ruslan Konev <konev.lincor+git@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SilentCicero/hyperapp-styled-components/issues"
+    "url": "https://github.com/ruslankonev/hyper-styled-components/issues"
   },
-  "homepage": "https://github.com/SilentCicero/hyperapp-styled-components#readme",
+  "homepage": "https://github.com/ruslankonev/hyper-styled-components#readme",
   "dependencies": {
-    "hyperapp": "^2.0.4"
+    "hyperapp": "^2.0.20"
   }
 }

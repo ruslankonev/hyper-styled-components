@@ -1,9 +1,9 @@
-## hyperapp-styled-components
+## hyper-styled-components
 
 <div>
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/hyperapp-styled-components">
-    <img src="http://img.shields.io/npm/v/hyperapp-styled-components.svg"
+  <a href="https://www.npmjs.org/package/hyper-styled-components">
+    <img src="http://img.shields.io/npm/v/hyper-styled-components.svg"
     alt="NPM version" />
   </a>
 </div>
@@ -15,7 +15,7 @@ A super tiny Hyperapp equivalent of [`styled-components`](https://github.com/sty
 ## Install
 
 ```
-npm install --save hyperapp-styled-components
+npm install --save hyper-styled-components
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ First add this to your HTML file in the <head> tag: `<style type="text/css" id="
 
 ```js
 import { h, app } from "hyperapp";
-import styled from 'hyperapp-styled-components';
+import styled from 'hyper-styled-components';
 
 const Header = styled.h2`
   color: #333;
@@ -86,7 +86,7 @@ A special thanks to [Max Stoiber](https://twitter.com/mxstbr) and the `styled-co
 ## Usage with Props
 
 ```js
-import styled from 'hyperapp-styled-components';
+import styled from 'hyper-styled-components';
 
 const Header = styled.h2`
   color: #${props => props.status === 'success' ? '000' : '333'};
@@ -102,7 +102,7 @@ const View = () => () => (
 ## With Keyframes
 
 ```js
-import styled, { keyframes } from 'hyperapp-styled-components';
+import styled, { keyframes } from 'hyper-styled-components';
 
 const boxmove = keyframes`
   0%   {top: 0px;}
@@ -126,7 +126,7 @@ const Box = styled.div`
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/SilentCicero/hyperapp-styled-components/master/LICENSE)
+- [License](https://raw.githubusercontent.com/SilentCicero/hyper-styled-components/master/LICENSE)
 
 ## Todo
 
